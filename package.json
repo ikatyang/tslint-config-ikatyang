@@ -1,0 +1,13 @@
+{
+  "name": "tslint-config-ikatyang",
+  "version": "0.1.0",
+  "description": "tslint config for ikatyang",
+  "main": "tslint.json",
+  "repository": "https://github.com/ikatyang/tslint-config-ikatyang",
+  "author": "ikatyang",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "5.1.0",
+    "typescript": "2.3.0"
+  }
+}
