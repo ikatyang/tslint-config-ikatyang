@@ -1,6 +1,3 @@
 {
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "files.eol": "\n",
-  "editor.tabSize": 2
+  "tslint.configFile": "tslint.js"
 }
