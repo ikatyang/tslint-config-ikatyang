@@ -1,18 +1,22 @@
-{
+module.exports = {
+  "extends": ["tslint-eslint-rules"],
   "rules": {
+
+    // tslint
+
     "adjacent-overload-signatures": true,
     "align": [true, "arguments", "parameters", "statements"],
     "array-type": [true, "array"],
     "arrow-parens": [true, "ban-single-arg-parens"],
     "arrow-return-shorthand": [true, "multiline"],
     "await-promise": true,
+    "ban": false,
     "ban-types": [true,
       ["Boolean", "Use boolean instead."],
       ["Number", "Use number instead."],
       ["String", "Use string instead."],
       ["Object", "Use {} instead."]
     ],
-    "ban": false,
     "callable-types": true,
     "class-name": true,
     "comment-format": [true, "check-space"],
@@ -54,6 +58,7 @@
     "newline-before-return": false,
     "no-angle-bracket-type-assertion": true,
     "no-any": true,
+    "no-arg": true,
     "no-bitwise": true,
     "no-boolean-literal-compare": true,
     "no-conditional-assignment": true,
@@ -64,8 +69,8 @@
     "no-default-export": true,
     "no-duplicate-super": true,
     "no-duplicate-variable": true,
-    "no-empty-interface": true,
     "no-empty": true,
+    "no-empty-interface": true,
     "no-eval": true,
     "no-floating-promises": true,
     "no-for-in-array": true,
@@ -82,8 +87,8 @@
     "no-non-null-assertion": true,
     "no-null-keyword": false,
     "no-parameter-properties": true,
-    "no-reference-import": true,
     "no-reference": true,
+    "no-reference-import": true,
     "no-require-imports": true,
     "no-shadowed-variable": true,
     "no-sparse-arrays": true,
@@ -139,6 +144,14 @@
     "switch-default": true,
     "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
     "triple-equals": true,
+    "typedef": [true,
+      "arrow-call-signature",
+      "arrow-parameter",
+      "call-signature",
+      "member-variable-declaration",
+      "parameter",
+      "property-declaration"
+    ],
     "typedef-whitespace": [true, {
       "call-signature": "nospace",
       "index-signature": "nospace",
@@ -152,14 +165,6 @@
       "property-declaration": "onespace",
       "variable-declaration": "onespace"
     }],
-    "typedef": [true,
-      "arrow-call-signature",
-      "arrow-parameter",
-      "call-signature",
-      "member-variable-declaration",
-      "parameter",
-      "property-declaration"
-    ],
     "typeof-compare": true,
     "unified-signatures": true,
     "use-isnan": true,
@@ -177,6 +182,58 @@
       "check-separator",
       "check-type",
       "check-typecast"
-    ]
+    ],
+
+    // tslint-eslint-rules
+
+    // "arrow-body-style": [false], // tslint: arrow-return-shorthand
+    "array-bracket-spacing": [true, "never"],
+    "block-spacing": [true, "always"],
+    // "brace-style": [false], // tslint: one-line
+    "handle-callback-err": [true, "^(err|error)$|^.+Error$", { "allowProperties": true }],
+    "no-constant-condition": true,
+    "no-control-regex": true,
+    "no-duplicate-case": true,
+    "no-empty-character-class": true,
+    "no-ex-assign": true,
+    "no-extra-boolean-cast": true,
+    "no-extra-semi": true,
+    "no-inner-declarations": [true, "both"],
+    "no-invalid-regexp": true,
+    "no-irregular-whitespace": true,
+    "no-multi-spaces": [true, { "exceptions": {
+      "PropertyAssignment": false,
+      "VariableDeclaration": false,
+      "BinaryExpression": false
+    }}],
+    "no-regex-spaces": true,
+    // "no-sparse-arrays": false, // tslint: no-sparse-arrays
+    "no-unexpected-multiline": true,
+    "object-curly-spacing": [true, "always"],
+    // "sort-imports": [false], // tslint: ordered-imports
+    "space-in-parens": [true, "never"],
+    // "ter-arrow-parens": [false], // tslint: arrow-parens
+    // "ter-arrow-spacing": [false], // tslint: whitespace
+    "ter-indent": [true, 2, {
+      "SwitchCase": 1,
+      "VariableDeclarator": 1,
+      "outerIIFEBody": 1,
+      "MemberExpression": 1,
+      "FunctionDeclaration": {
+        "parameters": 2,
+        "body": 1
+      },
+      "FunctionExpression": {
+        "parameters": 2,
+        "body": 1
+      },
+      "CallExpression": {
+        "arguments": 1
+      }
+    }],
+    // "ter-max-len": [false], // tslint: max-line-length
+    // "ter-prefer-arrow-callback": [false], // tslint: only-arrow-functions
+    "valid-jsdoc": [false]
+    // "valid-typeof": false, // tslint: typeof-compare
   }
-}
+};
