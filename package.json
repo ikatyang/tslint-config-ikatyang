@@ -13,5 +13,8 @@
     "eslint": "3.19.0",
     "tslint": "5.1.0",
     "typescript": "2.3.0"
+  },
+  "peerDependencies": {
+    "tslint": "^5.1.0"
   }
 }
