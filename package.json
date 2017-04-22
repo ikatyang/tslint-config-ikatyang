@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-ikatyang",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "tslint config for ikatyang",
   "main": "tslint.js",
   "repository": "https://github.com/ikatyang/tslint-config-ikatyang",
