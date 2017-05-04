@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## 0.3.0 (2017-05-04)
 - [tslint] Upgrade v5.2.0
 - [enable-option] `align`: `members`, `elements`
 - [enable-rule] `ordered-imports`
