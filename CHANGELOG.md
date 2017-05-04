@@ -1,6 +1,7 @@
 # Change Log
 
 ## Unreleased
+- [tslint] Upgrade v5.2.0
 - [enable] `ordered-imports`
 - [enable] `prefer-function-over-method`
 - [adjust] `object-curly-spacing`: never curly spacing in object
