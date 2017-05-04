@@ -1,5 +1,10 @@
 # Change Log
 
+## Unreleased
+- [enable] `ordered-imports`
+- [enable] `prefer-function-over-method`
+- [adjust] `object-curly-spacing`: never curly spacing in object
+
 ## 0.2.0 (2017-04-22)
 - [adjust] `variable-name`: add `allow-leading-underscore` option
 - [disable] `no-any`

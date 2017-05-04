@@ -120,10 +120,10 @@ module.exports = {
     ],
     "one-variable-per-declaration": [true],
     "only-arrow-functions": [true],
-    "ordered-imports": [false],
+    "ordered-imports": [true, {"import-sources-order": "lowercase-first", "named-imports-order": "lowercase-first"}],
     "prefer-const": true,
     "prefer-for-of": true,
-    "prefer-function-over-method": false,
+    "prefer-function-over-method": true,
     "prefer-method-signature": true,
     "prefer-template": true,
     "promise-function-async": true,
@@ -210,7 +210,7 @@ module.exports = {
     "no-regex-spaces": true,
     // "no-sparse-arrays": false, // tslint: no-sparse-arrays
     "no-unexpected-multiline": true,
-    "object-curly-spacing": [true, "always"],
+    "object-curly-spacing": [true, "never"],
     // "sort-imports": [false], // tslint: ordered-imports
     "space-in-parens": [true, "never"],
     // "ter-arrow-parens": [false], // tslint: arrow-parens
