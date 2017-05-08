@@ -6,8 +6,16 @@
 
 ## Installation
 
+using npm
+
 ```sh
-yarn add -D tslint-config-ikatyang
+npm install --save-dev tslint-config-ikatyang
+```
+
+using yarn
+
+```sh
+yarn add --dev tslint-config-ikatyang
 ```
 
 ## Usage
