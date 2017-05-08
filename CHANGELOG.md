@@ -1,5 +1,8 @@
 # Change Log
 
+## Unreleased
+- [disable-rule] `typedef`: unnecessary typedef for known types, `--noImplicitAny` is enough for unknown types.
+
 ## 0.3.0 (2017-05-04)
 - [tslint] Upgrade v5.2.0
 - [enable-option] `align`: `members`, `elements`

@@ -150,14 +150,7 @@ module.exports = {
     "switch-default": true,
     "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
     "triple-equals": true,
-    "typedef": [true,
-      "arrow-call-signature",
-      "arrow-parameter",
-      "call-signature",
-      "member-variable-declaration",
-      "parameter",
-      "property-declaration"
-    ],
+    "typedef": [false],
     "typedef-whitespace": [true, {
       "call-signature": "nospace",
       "index-signature": "nospace",
