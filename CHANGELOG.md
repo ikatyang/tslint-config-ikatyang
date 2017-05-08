@@ -1,9 +1,9 @@
 # Change Log
 
-## Unreleased
+## v0.4.0 (2017-05-08)
 - [disable-rule] `typedef`: unnecessary typedef for known types, `--noImplicitAny` is enough for unknown types.
 
-## 0.3.0 (2017-05-04)
+## v0.3.0 (2017-05-04)
 - [tslint] Upgrade v5.2.0
 - [enable-option] `align`: `members`, `elements`
 - [enable-rule] `ordered-imports`
@@ -17,14 +17,14 @@
 - [adjust-rule] `no-console`: ban all console methods
 - [disable-new-rule] `prefer-switch`
 
-## 0.2.0 (2017-04-22)
+## v0.2.0 (2017-04-22)
 - [adjust] `variable-name`: add `allow-leading-underscore` option
 - [disable] `no-any`
 - [disable] `no-unsafe-any`
 - [disable] `prefer-function-over-method`
 
-## 0.1.1 (2017-04-18)
+## v0.1.1 (2017-04-18)
 - fix entry point
 
-## 0.1.0 (2017-04-18)
+## v0.1.0 (2017-04-18)
 - first release
