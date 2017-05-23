@@ -1,9 +1,0 @@
-.vscode/
-node_modules/
-.editorconfig
-.eslintrc.json
-.gitattributes
-.gitignore
-.npmignore
-tsconfig.json
-yarn.lock
