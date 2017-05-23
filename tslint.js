@@ -24,12 +24,13 @@ module.exports = {
     "curly": true,
     "cyclomatic-complexity": [true, 20],
     "deprecation": true,
+    "encoding": true,
     "eofline": true,
     "file-header": [false],
     "forin": true,
     "import-blacklist": false,
     "import-spacing": true,
-    "indent": [true, "spaces"],
+    "indent": [true, "spaces", 2],
     "interface-name": [true, "always-prefix"],
     "interface-over-type-literal": true,
     "jsdoc-format": true,
@@ -124,16 +125,21 @@ module.exports = {
       "check-whitespace"
     ],
     "one-variable-per-declaration": [true],
-    "only-arrow-functions": [true],
+    "only-arrow-functions": [true,
+      "allow-declarations",
+      "allow-named-functions"
+    ],
     "ordered-imports": [true, {"import-sources-order": "lowercase-first", "named-imports-order": "lowercase-first"}],
+    "prefer-conditional-expression": true,
     "prefer-const": true,
     "prefer-for-of": true,
     "prefer-function-over-method": true,
     "prefer-method-signature": true,
+    "prefer-object-spread": true,
     "prefer-switch": [false],
     "prefer-template": true,
     "promise-function-async": true,
-    "quotemark": [true, "single", "avoid-escape", "jsx-double"],
+    "quotemark": [true, "single", "avoid-escape", "jsx-double", "no-template"],
     "radix": false,
     "restrict-plus-operands": true,
     "return-undefined": true,
@@ -145,7 +151,10 @@ module.exports = {
       "method": "never",
       "named": "never"
     }],
-    "strict-boolean-expressions": true,
+    "strict-boolean-expressions": [true,
+      "allow-null-union",
+      "allow-undefined-union"
+    ],
     "strict-type-predicates": true,
     "switch-default": true,
     "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
@@ -200,20 +209,19 @@ module.exports = {
     "no-extra-semi": true,
     "no-inner-declarations": [true, "both"],
     "no-invalid-regexp": true,
-    // "no-irregular-whitespace": true, // tslint: no-irregular-whitespace
     "no-multi-spaces": [true, { "exceptions": {
       "PropertyAssignment": false,
       "VariableDeclaration": false,
       "BinaryExpression": false
     }}],
     "no-regex-spaces": true,
-    // "no-sparse-arrays": false, // tslint: no-sparse-arrays
     "no-unexpected-multiline": true,
     "object-curly-spacing": [true, "never"],
     // "sort-imports": [false], // tslint: ordered-imports
     "space-in-parens": [true, "never"],
     // "ter-arrow-parens": [false], // tslint: arrow-parens
     // "ter-arrow-spacing": [false], // tslint: whitespace
+    "ter-func-call-spacing": [true, "never"],
     "ter-indent": [true, 2, {
       "SwitchCase": 1,
       "VariableDeclarator": 1,
@@ -232,6 +240,8 @@ module.exports = {
       }
     }],
     // "ter-max-len": [false], // tslint: max-line-length
+    // "ter-no-irregular-whitespace": false, // tslint: no-irregular-whitespace
+    // "ter-no-sparse-arrays": false, // tslint: no-sparse-arrays
     // "ter-prefer-arrow-callback": [false], // tslint: only-arrow-functions
     "valid-jsdoc": [false]
     // "valid-typeof": false, // tslint: typeof-compare

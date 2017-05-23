@@ -1,5 +1,17 @@
 # Change Log
 
+## Unreleased
+- [tslint] Upgrade v5.3.2
+- [enable-option] `strict-boolean-expressions`: `allow-null-union`, `allow-undefined-union`
+- [enable-option] `only-arrow-functions`: `allow-declarations`, `allow-named-functions`
+- [enable-new-option] `indent`: 2 spaces
+- [enable-new-option] `quotemark`: `no-template`
+- [enable-new-rule] `prefer-object-spread`
+- [enable-new-rule] `encoding`
+- [enable-new-rule] `prefer-conditional-expression`
+- [tslint-eslint-rules] Upgrade v4.1.0
+- [enable-new-rule] `ter-func-call-spacing`
+
 ## v0.4.0 (2017-05-08)
 - [disable-rule] `typedef`: unnecessary typedef for known types, `--noImplicitAny` is enough for unknown types.
 
