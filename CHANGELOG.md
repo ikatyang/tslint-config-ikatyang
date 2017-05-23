@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## v0.5.0 (2017-05-24)
 - [tslint] Upgrade v5.3.2
 - [enable-option] `strict-boolean-expressions`: `allow-null-union`, `allow-undefined-union`
 - [enable-option] `only-arrow-functions`: `allow-declarations`, `allow-named-functions`
