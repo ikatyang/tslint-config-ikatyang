@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## v0.6.0 (2017-05-27)
 - [disable-rule] `interface-name`
 
 ## v0.5.0 (2017-05-24)
