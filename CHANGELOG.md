@@ -1,5 +1,8 @@
 # Change Log
 
+## Unreleased
+- [disable-rule] `interface-name`
+
 ## v0.5.0 (2017-05-24)
 - [tslint] Upgrade v5.3.2
 - [enable-option] `strict-boolean-expressions`: `allow-null-union`, `allow-undefined-union`

@@ -31,7 +31,7 @@ module.exports = {
     "import-blacklist": false,
     "import-spacing": true,
     "indent": [true, "spaces", 2],
-    "interface-name": [true, "always-prefix"],
+    "interface-name": [false],
     "interface-over-type-literal": true,
     "jsdoc-format": true,
     "label-position": true,
