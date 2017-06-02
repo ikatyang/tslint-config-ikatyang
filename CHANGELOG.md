@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## v0.7.0 (2017-06-02)
 - [tslint] Upgrade v5.4.2
 - [enable-new-rule] `switch-final-break`
 - [enable-new-rule] `use-default-type-parameter`
