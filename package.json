@@ -6,16 +6,19 @@
   "repository": "https://github.com/ikatyang/tslint-config-ikatyang",
   "author": "ikatyang",
   "license": "MIT",
+  "scripts": {
+    "lint": "tslint -p ./tsconfig.json -c ./tslint.js"
+  },
   "dependencies": {
     "tslint-eslint-rules": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "3.19.0",
-    "tslint": "5.3.2",
+    "tslint": "5.4.2",
     "typescript": "2.3.3"
   },
   "peerDependencies": {
-    "tslint": "^5.3.2"
+    "tslint": "^5.4.2"
   },
   "files": [
     "tslint.js"

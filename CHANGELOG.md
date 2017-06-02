@@ -1,5 +1,13 @@
 # Change Log
 
+## Unreleased
+- [tslint] Upgrade v5.4.2
+- [enable-new-rule] `switch-final-break`
+- [enable-new-rule] `use-default-type-parameter`
+- [enable-new-rule] `binary-expression-operand-order`
+- [enable-new-option] `no-duplicate-variable`: `check-parameters`
+- [disable-rule] `no-non-null-assertion`
+
 ## v0.6.0 (2017-05-27)
 - [disable-rule] `interface-name`
 
