@@ -1,5 +1,10 @@
 # Change Log
 
+## Unreleased
+- [disable-rule] `no-magic-numbers`
+- [disable-rule] `prefer-method-signature`
+- [disable-option] `strict-boolean-expressions`: `allow-null-union`, `allow-undefined-union`
+
 ## v0.7.0 (2017-06-02)
 - [tslint] Upgrade v5.4.2
 - [enable-new-rule] `switch-final-break`
