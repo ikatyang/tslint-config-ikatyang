@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## v0.8.0 (2017-06-13)
 - [disable-rule] `no-magic-numbers`
 - [disable-rule] `prefer-method-signature`
 - [disable-option] `strict-boolean-expressions`: `allow-null-union`, `allow-undefined-union`
