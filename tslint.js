@@ -100,6 +100,7 @@ module.exports = {
     "no-string-literal": true,
     "no-string-throw": true,
     "no-switch-case-fall-through": true,
+    "no-this-assignment": true,
     "no-trailing-whitespace": true,
     "no-unbound-method": true,
     "no-unnecessary-callback-wrapper": true,
