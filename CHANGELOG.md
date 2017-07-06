@@ -1,5 +1,11 @@
 # Change Log
 
+## v0.9.0 (2017-07-06)
+- [tslint] Upgrade v5.5.0
+- [enable-new-rule] `no-this-assignment`
+- [disable-rule] `no-bitwise`
+- [disable-option] `whitespace`: `check-module`, `check-typecast`
+
 ## v0.8.0 (2017-06-13)
 - [disable-rule] `no-magic-numbers`
 - [disable-rule] `prefer-method-signature`
