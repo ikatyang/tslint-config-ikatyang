@@ -62,7 +62,7 @@ module.exports = {
     "no-angle-bracket-type-assertion": true,
     "no-any": false,
     "no-arg": true,
-    "no-bitwise": true,
+    "no-bitwise": false,
     "no-boolean-literal-compare": true,
     "no-conditional-assignment": true,
     "no-consecutive-blank-lines": [true],
