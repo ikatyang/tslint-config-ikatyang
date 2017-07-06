@@ -186,11 +186,9 @@ module.exports = {
       "check-branch",
       "check-decl",
       "check-operator",
-      "check-module",
       "check-preblock",
       "check-separator",
-      "check-type",
-      "check-typecast"
+      "check-type"
     ],
 
     // tslint-eslint-rules
