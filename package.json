@@ -14,11 +14,11 @@
   },
   "devDependencies": {
     "eslint": "3.19.0",
-    "tslint": "5.4.2",
+    "tslint": "5.5.0",
     "typescript": "2.3.3"
   },
   "peerDependencies": {
-    "tslint": "^5.4.2"
+    "tslint": "^5.5.0"
   },
   "files": [
     "tslint.js"
