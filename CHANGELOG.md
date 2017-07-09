@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.10.0 (2017-07-09)
+- [enable-option] `await-promise`: `PromiseLike`
+- [disable-rule] `no-require-imports`
+
 ## v0.9.0 (2017-07-06)
 - [tslint] Upgrade v5.5.0
 - [enable-new-rule] `no-this-assignment`
