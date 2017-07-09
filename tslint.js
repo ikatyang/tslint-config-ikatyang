@@ -9,7 +9,7 @@ module.exports = {
     "array-type": [true, "array"],
     "arrow-parens": [true, "ban-single-arg-parens"],
     "arrow-return-shorthand": [true, "multiline"],
-    "await-promise": true,
+    "await-promise": [true, "PromiseLike"],
     "ban": false,
     "ban-types": [true,
       ["Boolean", "Use boolean instead."],
