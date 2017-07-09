@@ -94,7 +94,7 @@ module.exports = {
     "no-parameter-properties": true,
     "no-reference": true,
     "no-reference-import": true,
-    "no-require-imports": true,
+    "no-require-imports": false,
     "no-shadowed-variable": true,
     "no-sparse-arrays": true,
     "no-string-literal": true,
