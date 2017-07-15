@@ -2,12 +2,17 @@
   "name": "tslint-config-ikatyang",
   "version": "0.10.0",
   "description": "tslint config for ikatyang",
-  "main": "tslint.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/ikatyang/tslint-config-ikatyang",
   "author": "ikatyang",
   "license": "MIT",
   "scripts": {
-    "lint": "tslint -p ./tsconfig.json -c ./tslint.js"
+    "prepublish": "npm run build",
+    "lint": "tslint -p ./tsconfig.json",
+    "test": "npm run lint",
+    "prebuild": "rm -rf ./lib",
+    "build": "tsc -p ./tsconfig.build.json"
   },
   "dependencies": {
     "tslint-eslint-rules": "^4.1.0"
@@ -20,6 +25,6 @@
     "tslint": "^5.5.0"
   },
   "files": [
-    "tslint.js"
+    "/lib/**/*"
   ]
 }
