@@ -2,18 +2,10 @@ export = {
   extends: ['tslint-eslint-rules'],
   rules: {
     // tslint
-
     'adjacent-overload-signatures': true,
-    align: [
-      true,
-      'arguments',
-      'parameters',
-      'statements',
-      'elements',
-      'members',
-    ],
+    align: false, // conflict with prettier
     'array-type': [true, 'array'],
-    'arrow-parens': [true, 'ban-single-arg-parens'],
+    'arrow-parens': false, // conflict with prettier
     'arrow-return-shorthand': [true, 'multiline'],
     'await-promise': [true, 'PromiseLike'],
     ban: false,
@@ -28,26 +20,26 @@ export = {
     'callable-types': true,
     'class-name': true,
     'comment-format': [true, 'check-space'],
-    'completed-docs': [false],
+    'completed-docs': false,
     curly: true,
     'cyclomatic-complexity': [true, 20],
     deprecation: true,
     encoding: true,
-    eofline: true,
-    'file-header': [false],
+    eofline: false, // conflict with prettier
+    'file-header': false,
     forin: true,
     'import-blacklist': false,
-    'import-spacing': true,
-    indent: [true, 'spaces', 2],
-    'interface-name': [false],
+    'import-spacing': false, // conflict with prettier
+    indent: false, // conflict with prettier
+    'interface-name': false,
     'interface-over-type-literal': true,
     'jsdoc-format': true,
     'label-position': true,
-    'linebreak-style': [true, 'LF'],
+    'linebreak-style': false, // conflict with prettier
     'match-default-export-name': true,
     'max-classes-per-file': [true, 1],
     'max-file-line-count': [true, 300],
-    'max-line-length': [true, 120],
+    'max-line-length': false, // conflict with prettier
     'member-access': true,
     'member-ordering': [
       true,
@@ -69,7 +61,7 @@ export = {
         ],
       },
     ],
-    'new-parens': true,
+    'new-parens': false, // conflict with prettier
     'newline-before-return': false,
     'no-angle-bracket-type-assertion': true,
     'no-any': false,
@@ -77,7 +69,7 @@ export = {
     'no-bitwise': false,
     'no-boolean-literal-compare': true,
     'no-conditional-assignment': true,
-    'no-consecutive-blank-lines': [true],
+    'no-consecutive-blank-lines': false, // conflict with prettier
     'no-console': [true],
     'no-construct': true,
     'no-debugger': true,
@@ -95,7 +87,7 @@ export = {
     'no-internal-module': true,
     'no-invalid-template-strings': true,
     'no-invalid-this': true,
-    'no-irregular-whitespace': true,
+    'no-irregular-whitespace': false, // conflict with prettier
     'no-magic-numbers': false,
     'no-mergeable-namespace': true,
     'no-misused-new': true,
@@ -113,7 +105,7 @@ export = {
     'no-string-throw': true,
     'no-switch-case-fall-through': true,
     'no-this-assignment': true,
-    'no-trailing-whitespace': true,
+    'no-trailing-whitespace': false, // conflict with prettier
     'no-unbound-method': true,
     'no-unnecessary-callback-wrapper': true,
     'no-unnecessary-initializer': true,
@@ -128,17 +120,10 @@ export = {
     'no-var-requires': true,
     'no-void-expression': [true, 'ignore-arrow-function-shorthand'],
     'number-literal-format': true,
-    'object-literal-key-quotes': [true, 'consistent-as-needed'],
+    'object-literal-key-quotes': false, // conflict with prettier
     'object-literal-shorthand': true,
     'object-literal-sort-keys': false,
-    'one-line': [
-      true,
-      'check-open-brace',
-      'check-catch',
-      'check-else',
-      'check-finally',
-      'check-whitespace',
-    ],
+    'one-line': false, // conflict with prettier
     'one-variable-per-declaration': [true],
     'only-arrow-functions': [
       true,
@@ -158,48 +143,23 @@ export = {
     'prefer-function-over-method': true,
     'prefer-method-signature': false,
     'prefer-object-spread': true,
-    'prefer-switch': [false],
+    'prefer-switch': false,
     'prefer-template': true,
     'promise-function-async': true,
-    quotemark: [true, 'single', 'avoid-escape', 'jsx-double', 'no-template'],
+    quotemark: false, // conflict with prettier
     radix: false,
     'restrict-plus-operands': true,
     'return-undefined': true,
-    semicolon: [true, 'always'],
-    'space-before-function-paren': [
-      true,
-      {
-        anonymous: 'always',
-        asyncArrow: 'always',
-        constructor: 'never',
-        method: 'never',
-        named: 'never',
-      },
-    ],
+    semicolon: false, // conflict with prettier
+    'space-before-function-paren': false, // conflict with prettier
     'strict-boolean-expressions': [true],
     'strict-type-predicates': true,
     'switch-default': true,
     'switch-final-break': [true, 'always'],
-    'trailing-comma': [true, { multiline: 'always', singleline: 'never' }],
+    'trailing-comma': false, // conflict with prettier
     'triple-equals': true,
-    typedef: [false],
-    'typedef-whitespace': [
-      true,
-      {
-        'call-signature': 'nospace',
-        'index-signature': 'nospace',
-        parameter: 'nospace',
-        'property-declaration': 'nospace',
-        'variable-declaration': 'nospace',
-      },
-      {
-        'call-signature': 'onespace',
-        'index-signature': 'onespace',
-        parameter: 'onespace',
-        'property-declaration': 'onespace',
-        'variable-declaration': 'onespace',
-      },
-    ],
+    typedef: false,
+    'typedef-whitespace': false, // conflict with prettier
     'typeof-compare': true,
     'unified-signatures': true,
     'use-default-type-parameter': true,
@@ -211,22 +171,13 @@ export = {
       'allow-snake-case',
       'allow-leading-underscore',
     ],
-    whitespace: [
-      true,
-      'check-branch',
-      'check-decl',
-      'check-operator',
-      'check-preblock',
-      'check-separator',
-      'check-type',
-    ],
+    whitespace: false, // conflict with prettier
 
     // tslint-eslint-rules
-
-    // "arrow-body-style": [false], // tslint: arrow-return-shorthand
+    'arrow-body-style': false, // tslint: arrow-return-shorthand
     'array-bracket-spacing': [true, 'never'],
-    'block-spacing': [true, 'always'],
-    // "brace-style": [false], // tslint: one-line
+    'block-spacing': false, // conflict with prettier
+    'brace-style': false, // tslint: one-line
     'handle-callback-err': [
       true,
       '^(err|error)$|^.+Error$',
@@ -241,50 +192,21 @@ export = {
     'no-extra-semi': true,
     'no-inner-declarations': [true, 'both'],
     'no-invalid-regexp': true,
-    'no-multi-spaces': [
-      true,
-      {
-        exceptions: {
-          PropertyAssignment: false,
-          VariableDeclaration: false,
-          BinaryExpression: false,
-        },
-      },
-    ],
+    'no-multi-spaces': false, // conflict with prettier
     'no-regex-spaces': true,
     'no-unexpected-multiline': true,
-    'object-curly-spacing': [true, 'never'],
-    // "sort-imports": [false], // tslint: ordered-imports
-    'space-in-parens': [true, 'never'],
-    // "ter-arrow-parens": [false], // tslint: arrow-parens
-    // "ter-arrow-spacing": [false], // tslint: whitespace
+    'object-curly-spacing': false, // conflict with prettier
+    'sort-imports': false, // tslint: ordered-imports
+    'space-in-parens': false, // conflict with prettier
+    'ter-arrow-parens': false, // tslint: arrow-parens
+    'ter-arrow-spacing': false, // tslint: whitespace
     'ter-func-call-spacing': [true, 'never'],
-    'ter-indent': [
-      true,
-      2,
-      {
-        SwitchCase: 1,
-        VariableDeclarator: 1,
-        outerIIFEBody: 1,
-        MemberExpression: 1,
-        FunctionDeclaration: {
-          parameters: 2,
-          body: 1,
-        },
-        FunctionExpression: {
-          parameters: 2,
-          body: 1,
-        },
-        CallExpression: {
-          arguments: 1,
-        },
-      },
-    ],
-    // "ter-max-len": [false], // tslint: max-line-length
-    // "ter-no-irregular-whitespace": false, // tslint: no-irregular-whitespace
-    // "ter-no-sparse-arrays": false, // tslint: no-sparse-arrays
-    // "ter-prefer-arrow-callback": [false], // tslint: only-arrow-functions
-    'valid-jsdoc': [false],
-    // "valid-typeof": false, // tslint: typeof-compare
+    'ter-indent': false, // conflict with prettier
+    'ter-max-len': false, // tslint: max-line-length
+    'ter-no-irregular-whitespace': false, // tslint: no-irregular-whitespace
+    'ter-no-sparse-arrays': false, // tslint: no-sparse-arrays
+    'ter-prefer-arrow-callback': false, // tslint: only-arrow-functions
+    'valid-jsdoc': false,
+    'valid-typeof': false, // tslint: typeof-compare
   },
 };
