@@ -1,5 +1,5 @@
 export = {
-  extends: ['tslint-eslint-rules'],
+  extends: ['tslint-eslint-rules', 'tslint-consistent-codestyle'],
   rules: {
     // tslint
     'adjacent-overload-signatures': true,
@@ -18,7 +18,7 @@ export = {
     ],
     'binary-expression-operand-order': true,
     'callable-types': true,
-    'class-name': true,
+    'class-name': false, // tslint-consistent-codestyle: naming-convention
     'comment-format': [true, 'check-space'],
     'completed-docs': false,
     curly: true,
@@ -31,12 +31,12 @@ export = {
     'import-blacklist': false,
     'import-spacing': false, // conflict with prettier
     indent: false, // conflict with prettier
-    'interface-name': false,
+    'interface-name': false, // tslint-consistent-codestyle: naming-convention
     'interface-over-type-literal': true,
     'jsdoc-format': true,
     'label-position': true,
     'linebreak-style': false, // conflict with prettier
-    'match-default-export-name': true,
+    'match-default-export-name': false,
     'max-classes-per-file': [true, 1],
     'max-file-line-count': [true, 300],
     'max-line-length': false, // conflict with prettier
@@ -164,13 +164,7 @@ export = {
     'unified-signatures': true,
     'use-default-type-parameter': true,
     'use-isnan': true,
-    'variable-name': [
-      true,
-      'ban-keywords',
-      'check-format',
-      'allow-snake-case',
-      'allow-leading-underscore',
-    ],
+    'variable-name': [true, 'ban-keywords'], // tslint-consistent-codestyle: naming-convention
     whitespace: false, // conflict with prettier
 
     // tslint-eslint-rules
@@ -208,5 +202,37 @@ export = {
     'ter-prefer-arrow-callback': false, // tslint: only-arrow-functions
     'valid-jsdoc': false,
     'valid-typeof': false, // tslint: typeof-compare
+
+    // tslint-consistent-codestyle
+    'early-exit': [true],
+    'ext-curly': false,
+    'naming-convention': [
+      true,
+      {
+        type: 'default',
+        format: 'snake_case',
+        leadingUnderscore: 'forbid',
+        trailingUnderscore: 'forbid',
+      },
+      { type: 'parameter', leadingUnderscore: 'allow', final: true },
+      { type: 'variable', modifiers: 'rename', leadingUnderscore: 'allow' },
+      { type: 'member', modifiers: 'private', leadingUnderscore: 'require' },
+      { type: 'member', modifiers: 'protected', leadingUnderscore: 'require' },
+      { type: 'type', format: 'PascalCase' },
+      { type: 'enumMember', format: 'PascalCase' },
+    ],
+    'no-as-type-assertion': false,
+    'no-collapsible-if': true,
+    'no-else-after-return': true,
+    'no-return-undefined': [true, 'allow-void-expression'],
+    'no-static-this': false,
+    'no-unnecessary-else': true,
+    'no-unused': [true, 'ignore-imports', 'unused-function-expression-name', 'unused-class-expression-name'],
+    'no-var-before-return': true,
+    'object-shorthand-properties-first': false,
+    'oddness-check': false,
+    'parameter-properties': false,
+    'prefer-const-enum': true,
+    'prefer-while': true,
   },
 };

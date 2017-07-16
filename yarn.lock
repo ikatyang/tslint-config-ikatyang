@@ -178,6 +178,13 @@ tslint-config-prettier@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/tslint-config-prettier/-/tslint-config-prettier-1.1.0.tgz#40c026a56e4da27063b3e9bcd71f4f8109fee369"
 
+tslint-consistent-codestyle@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/tslint-consistent-codestyle/-/tslint-consistent-codestyle-1.5.1.tgz#11b6ae6af5a53cb6bd0351d9b6637eabc76d9b7d"
+  dependencies:
+    tslib "^1.7.1"
+    tsutils "^2.5.0"
+
 tslint-eslint-rules@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-4.1.0.tgz#8fee295c42f4c8078139deb16ee7b4510fd516b7"
@@ -204,6 +211,12 @@ tslint@5.5.0:
 tsutils@^1.4.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-1.6.0.tgz#1fd7fac2a61369ed99cd3997f0fbb437128850f2"
+
+tsutils@^2.5.0:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.7.1.tgz#411a0e9466525a2b2869260a55620d7292155e24"
+  dependencies:
+    tslib "^1.7.1"
 
 tsutils@^2.5.1:
   version "2.5.1"

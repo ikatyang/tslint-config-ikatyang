@@ -15,6 +15,7 @@
     "build": "tsc -p ./tsconfig.build.json"
   },
   "dependencies": {
+    "tslint-consistent-codestyle": "^1.5.1",
     "tslint-eslint-rules": "^4.1.0"
   },
   "devDependencies": {
