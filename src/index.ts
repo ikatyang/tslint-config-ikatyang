@@ -14,7 +14,7 @@ export = {
       ['Boolean', 'Use boolean instead.'],
       ['Number', 'Use number instead.'],
       ['String', 'Use string instead.'],
-      ['Object', 'Use {} instead.'],
+      ['Object', 'Use object instead.'],
     ],
     'binary-expression-operand-order': true,
     'callable-types': true,
