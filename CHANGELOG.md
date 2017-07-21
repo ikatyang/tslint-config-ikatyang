@@ -1,5 +1,11 @@
 # Change Log
 
+## v1.0.0 (2017-07-21)
+
+- [prettier] add prettier configs ([6668f32](https://github.com/ikatyang/tslint-config-ikatyang/commit/6668f32))
+- [enable-rules] add tslint-consistent-codestyle rules ([b6218c1](https://github.com/ikatyang/tslint-config-ikatyang/commit/b6218c1))
+- [disable-rules] disable rules handled by prettier ([87aea61](https://github.com/ikatyang/tslint-config-ikatyang/commit/87aea61))
+
 ## v0.10.0 (2017-07-09)
 
 - [enable-option] `await-promise`: `PromiseLike`
