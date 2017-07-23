@@ -8,17 +8,19 @@
   "author": "ikatyang",
   "license": "MIT",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "npm run build && npm run build-prettier",
     "lint": "tslint -p ./tsconfig.json",
     "test": "npm run lint",
     "prebuild": "rm -rf ./lib",
-    "build": "tsc -p ./tsconfig.build.json"
+    "build": "tsc -p ./tsconfig.build.json",
+    "build-prettier": "tsc -p ./tsconfig.prettier.json"
   },
   "dependencies": {
     "tslint-consistent-codestyle": "^1.5.1",
     "tslint-eslint-rules": "^4.1.0"
   },
   "devDependencies": {
+    "@types/prettier": "1.5.0",
     "tslint": "5.5.0",
     "tslint-config-prettier": "1.1.0",
     "typescript": "2.4.2"
@@ -26,8 +28,5 @@
   "peerDependencies": {
     "tslint": "^5.5.0"
   },
-  "files": [
-    "/lib/**/*",
-    "/prettier.js"
-  ]
+  "files": ["/lib/**/*", "/prettier.js", "/prettier.d.ts"]
 }

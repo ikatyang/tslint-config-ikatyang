@@ -1,4 +1,6 @@
-module.exports = {
+import * as prettier from 'prettier';
+
+const prettier_configs: prettier.Options = {
   printWidth: 80,
   tabWidth: 2,
   useTabs: false,
@@ -8,3 +10,5 @@ module.exports = {
   bracketSpacing: true,
   jsxBracketSameLine: false,
 };
+
+export = prettier_configs;

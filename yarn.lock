@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@types/babel-types@*":
+  version "6.25.1"
+  resolved "https://registry.yarnpkg.com/@types/babel-types/-/babel-types-6.25.1.tgz#ce8f126a4403e11e1b0033a424f11638afac7889"
+
+"@types/prettier@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-1.5.0.tgz#35ed47a24bd92bcab439c3670742219499a6b717"
+  dependencies:
+    "@types/babel-types" "*"
+
 ansi-regex@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
