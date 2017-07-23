@@ -227,7 +227,12 @@ export = {
     'no-return-undefined': [true, 'allow-void-expression'],
     'no-static-this': false,
     'no-unnecessary-else': true,
-    'no-unused': [true, 'ignore-imports', 'unused-function-expression-name', 'unused-class-expression-name'],
+    'no-unused': [
+      true,
+      'ignore-imports',
+      'unused-function-expression-name',
+      'unused-class-expression-name',
+    ],
     'no-var-before-return': true,
     'object-shorthand-properties-first': false,
     'oddness-check': false,
