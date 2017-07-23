@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.0.1 (2017-07-23)
+
+- [prettier] add typescript definition ([0d66a81](https://github.com/ikatyang/tslint-config-ikatyang/commit/0d66a81))
+
 ## v1.0.0 (2017-07-21)
 
 - [prettier] add prettier configs ([6668f32](https://github.com/ikatyang/tslint-config-ikatyang/commit/6668f32))
