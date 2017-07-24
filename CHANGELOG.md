@@ -1,5 +1,15 @@
 # Change Log
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/ikatyang/tslint-config-ikatyang/compare/v1.0.1...v1.0.2) (2017-07-24)
+
+
+### Bug Fixes
+
+* **rules:** disable rules conflict with prettier ([31232e3](https://github.com/ikatyang/tslint-config-ikatyang/commit/31232e3))
+
 ## v1.0.1 (2017-07-23)
 
 - [prettier] add typescript definition ([0d66a81](https://github.com/ikatyang/tslint-config-ikatyang/commit/0d66a81))
