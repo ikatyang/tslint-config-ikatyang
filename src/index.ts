@@ -169,7 +169,7 @@ export = {
 
     // tslint-eslint-rules
     'arrow-body-style': false, // tslint: arrow-return-shorthand
-    'array-bracket-spacing': [true, 'never'],
+    'array-bracket-spacing': false, // conflict with prettier
     'block-spacing': false, // conflict with prettier
     'brace-style': false, // tslint: one-line
     'handle-callback-err': [
@@ -194,7 +194,7 @@ export = {
     'space-in-parens': false, // conflict with prettier
     'ter-arrow-parens': false, // tslint: arrow-parens
     'ter-arrow-spacing': false, // tslint: whitespace
-    'ter-func-call-spacing': [true, 'never'],
+    'ter-func-call-spacing': false, // conflict with prettier
     'ter-indent': false, // conflict with prettier
     'ter-max-len': false, // tslint: max-line-length
     'ter-no-irregular-whitespace': false, // tslint: no-irregular-whitespace
