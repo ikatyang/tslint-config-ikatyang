@@ -247,7 +247,7 @@ export = {
     ],
     'no-regex-spaces': true,
     'no-unexpected-multiline': true,
-    'object-curly-spacing': [true, 'never'],
+    'object-curly-spacing': [true, 'always'],
     'sort-imports': false, // tslint: ordered-imports
     'space-in-parens': [true, 'never'],
     'ter-arrow-parens': false, // tslint: arrow-parens
