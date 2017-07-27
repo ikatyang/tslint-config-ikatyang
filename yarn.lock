@@ -2065,9 +2065,9 @@ tslib@^1.0.0, tslib@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
 
-tslint-config-prettier@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/tslint-config-prettier/-/tslint-config-prettier-1.1.0.tgz#40c026a56e4da27063b3e9bcd71f4f8109fee369"
+tslint-config-prettier-ext@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tslint-config-prettier-ext/-/tslint-config-prettier-ext-1.0.0.tgz#238626182d4d1a63f9f95b27814956baacf7b1a2"
 
 tslint-consistent-codestyle@^1.5.1:
   version "1.5.1"
