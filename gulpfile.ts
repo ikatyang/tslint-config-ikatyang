@@ -1,6 +1,6 @@
 import * as gulp from 'gulp';
 import * as prettier from 'gulp-plugin-prettier';
-import * as prettier_options from './prettier';
+import * as prettier_options from 'prettier-config-ikatyang';
 
 // tslint:disable-next-line:no-var-requires
 const sources = require('./tsconfig.json').include;
