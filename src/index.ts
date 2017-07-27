@@ -162,7 +162,7 @@ export = {
     'prefer-switch': false,
     'prefer-template': true,
     'promise-function-async': true,
-    quotemark: [true, 'single', 'avoid-escape', 'jsx-double', 'no-template'],
+    quotemark: [true, 'single', 'avoid-escape', 'jsx-double'],
     radix: false,
     'restrict-plus-operands': true,
     'return-undefined': true,
