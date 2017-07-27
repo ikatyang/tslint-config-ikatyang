@@ -262,11 +262,11 @@ export = {
         outerIIFEBody: 1,
         MemberExpression: 1,
         FunctionDeclaration: {
-          parameters: 2,
+          parameters: 1,
           body: 1,
         },
         FunctionExpression: {
-          parameters: 2,
+          parameters: 1,
           body: 1,
         },
         CallExpression: {
