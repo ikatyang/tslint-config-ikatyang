@@ -15,8 +15,6 @@ npm install --save-dev tslint-config-ikatyang
 yarn add --dev tslint-config-ikatyang
 ```
 
-**NOTE**: It's recommended to use [prettier](https://github.com/prettier/prettier) simultaneously, since this config disabled all `prettier`-related tslint rules.
-
 ## Usage
 
 (tslint.json)
@@ -25,10 +23,4 @@ yarn add --dev tslint-config-ikatyang
 {
   "extends": "tslint-config-ikatyang"
 }
-```
-
-(prettier.config.js)
-
-```js
-module.exports = require('tslint-config-ikatyang/prettier');
 ```

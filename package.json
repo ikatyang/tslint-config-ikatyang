@@ -8,12 +8,11 @@
   "author": "ikatyang",
   "license": "MIT",
   "scripts": {
-    "prepublish": "npm run build && npm run build-prettier",
+    "prepublish": "npm run build",
     "lint": "tslint -p ./tsconfig.json --type-check",
     "test": "npm run lint",
     "prebuild": "rm -rf ./lib",
     "build": "tsc -p ./tsconfig.build.json",
-    "build-prettier": "tsc -p ./tsconfig.prettier.json",
     "format": "gulp format",
     "format-check": "gulp format-check",
     "release": "standard-version"
@@ -38,8 +37,6 @@
     "tslint": "^5.5.0"
   },
   "files": [
-    "/lib/**/*",
-    "/prettier.js",
-    "/prettier.d.ts"
+    "/lib/**/*"
   ]
 }
