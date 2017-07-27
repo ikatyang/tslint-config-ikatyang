@@ -129,7 +129,7 @@ export = {
     'no-var-requires': true,
     'no-void-expression': [true, 'ignore-arrow-function-shorthand'],
     'number-literal-format': true,
-    'object-literal-key-quotes': [true, 'consistent-as-needed'],
+    'object-literal-key-quotes': [true, 'as-needed'],
     'object-literal-shorthand': true,
     'object-literal-sort-keys': false,
     'one-line': [
