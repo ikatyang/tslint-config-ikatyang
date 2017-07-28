@@ -2075,7 +2075,7 @@ tslint-config-prettier-ext@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tslint-config-prettier-ext/-/tslint-config-prettier-ext-1.0.0.tgz#238626182d4d1a63f9f95b27814956baacf7b1a2"
 
-tslint-consistent-codestyle@^1.5.1:
+tslint-consistent-codestyle@~1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/tslint-consistent-codestyle/-/tslint-consistent-codestyle-1.5.1.tgz#11b6ae6af5a53cb6bd0351d9b6637eabc76d9b7d"
   dependencies:
