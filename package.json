@@ -30,7 +30,7 @@
     "standard-version": "4.2.0",
     "ts-node": "3.3.0",
     "tslint": "5.5.0",
-    "tslint-config-prettier-ext": "1.1.0",
+    "tslint-config-prettier-ext": "1.2.0",
     "typescript": "2.4.2"
   },
   "peerDependencies": {
