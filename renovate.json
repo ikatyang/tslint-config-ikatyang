@@ -3,5 +3,19 @@
   "depTypes": [{ "depType": "dependencies", "pinVersions": false }],
   "pinVersions": true,
   "rebaseStalePrs": true,
-  "semanticCommits": true
+  "semanticCommits": true,
+  "packages": [
+    {
+      "packageName": "tslint",
+      "automerge": "patch"
+    },
+    {
+      "packageName": "tslint-consistent-codestyle",
+      "automerge": "patch"
+    },
+    {
+      "packageName": "tslint-eslint-rules",
+      "automerge": "patch"
+    }
+  ]
 }
