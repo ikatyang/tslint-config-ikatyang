@@ -314,7 +314,7 @@ export = {
     'no-var-before-return': true,
     'object-shorthand-properties-first': false,
     'oddness-check': false,
-    'parameter-properties': false,
+    'parameter-properties': [true, 'leading'],
     'prefer-const-enum': true,
     'prefer-while': true,
   },
