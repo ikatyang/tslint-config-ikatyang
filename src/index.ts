@@ -327,5 +327,6 @@ export = {
       true,
       { namingStyle: 'kebab-case', allowSuffixes: ['.test'] },
     ],
+    'no-mixed-parameter-properties': true,
   },
 };
