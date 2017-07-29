@@ -321,5 +321,11 @@ export = {
     'parameter-properties': [true, 'leading'],
     'prefer-const-enum': true,
     'prefer-while': true,
+
+    // tslint-plugin-ikatyang
+    'filename-convention': [
+      true,
+      { namingStyle: 'kebab-case', allowSuffixes: ['.test'] },
+    ],
   },
 };
