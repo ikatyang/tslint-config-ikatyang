@@ -1,7 +1,11 @@
 // tslint:disable:max-file-line-count
 
 export = {
-  extends: ['tslint-eslint-rules', 'tslint-consistent-codestyle'],
+  extends: [
+    'tslint-eslint-rules',
+    'tslint-consistent-codestyle',
+    'tslint-plugin-ikatyang',
+  ],
   rules: {
     // tslint
     'adjacent-overload-signatures': true,

@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "tslint-consistent-codestyle": "~1.6.0",
-    "tslint-eslint-rules": "~4.1.0"
+    "tslint-eslint-rules": "~4.1.0",
+    "tslint-plugin-ikatyang": "~1.0.0"
   },
   "devDependencies": {
     "@types/gulp": "3.8.33",

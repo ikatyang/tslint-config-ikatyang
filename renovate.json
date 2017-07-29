@@ -16,6 +16,10 @@
     {
       "packageName": "tslint-eslint-rules",
       "automerge": "patch"
+    },
+    {
+      "packageName": "tslint-plugin-ikatyang",
+      "automerge": "patch"
     }
   ]
 }
