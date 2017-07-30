@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/ikatyang/tslint-config-ikatyang/compare/v1.0.2...v2.0.0) (2017-07-30)
+
+
+### Features
+
+* **options:** [object-curly-spacing] replace 'never' with 'always' ([3ecd25e](https://github.com/ikatyang/tslint-config-ikatyang/commit/3ecd25e))
+* **options:** [object-literal-key-quotes] replace 'consistent-as-needed' with 'as-need' ([0bb0056](https://github.com/ikatyang/tslint-config-ikatyang/commit/0bb0056))
+* **options:** [quotemark] remove 'no-template' ([6aec04f](https://github.com/ikatyang/tslint-config-ikatyang/commit/6aec04f))
+* **options:** [ter-indent] set parameters to 1 ([779b62c](https://github.com/ikatyang/tslint-config-ikatyang/commit/779b62c))
+* **plugins:** add tslint-plugin-ikatyang ([5239174](https://github.com/ikatyang/tslint-config-ikatyang/commit/5239174))
+* **plugins:** add tslint-plugin-prettier ([93f0ec3](https://github.com/ikatyang/tslint-config-ikatyang/commit/93f0ec3))
+* **rules:** enable filename-convention ([31940e0](https://github.com/ikatyang/tslint-config-ikatyang/commit/31940e0))
+* **rules:** enable no-mixed-parameter-properties ([eb23711](https://github.com/ikatyang/tslint-config-ikatyang/commit/eb23711))
+* **rules:** enable parameter-properties ([dbc86b7](https://github.com/ikatyang/tslint-config-ikatyang/commit/dbc86b7))
+
+### BREAKING CHANGES
+
+* remove prettier configs in `tslint-config-ikatyang/prettier` ([17008e5](https://github.com/ikatyang/tslint-config-ikatyang/commit/17008e5))
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/ikatyang/tslint-config-ikatyang/compare/v1.0.1...v1.0.2) (2017-07-24)
 
