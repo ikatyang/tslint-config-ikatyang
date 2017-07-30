@@ -1,10 +1,17 @@
+import * as prettier_options from 'prettier-config-ikatyang';
+
 // tslint:disable:max-file-line-count
 
-export = {
+const config: {
+  extends: string[];
+  rules: { [rule: string]: boolean | any[] };
+} = {
   extends: [
     'tslint-eslint-rules',
     'tslint-consistent-codestyle',
     'tslint-plugin-ikatyang',
+    'tslint-plugin-prettier',
+    'tslint-config-prettier-ext',
   ],
   rules: {
     // tslint
@@ -328,5 +335,10 @@ export = {
       { namingStyle: 'kebab-case', allowSuffixes: ['.test'] },
     ],
     'no-mixed-parameter-properties': true,
+
+    // tslint-plugin-prettier
+    prettier: [true, prettier_options],
   },
 };
+
+export = config;

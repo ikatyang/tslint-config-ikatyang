@@ -20,6 +20,10 @@
     {
       "packageName": "tslint-plugin-ikatyang",
       "automerge": "patch"
+    },
+    {
+      "packageName": "tslint-plugin-prettier",
+      "automerge": "patch"
     }
   ]
 }
