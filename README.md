@@ -24,3 +24,11 @@ yarn add --dev tslint-config-ikatyang
   "extends": "tslint-config-ikatyang"
 }
 ```
+
+## Rules
+
+- [tslint](https://github.com/palantir/tslint)
+- [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
+- [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
+- [tslint-plugin-ikatyang](https://github.com/ikatyang/tslint-plugin-ikatyang)
+- [tslint-plugin-prettier](https://github.com/ikatyang/tslint-plugin-prettier)
