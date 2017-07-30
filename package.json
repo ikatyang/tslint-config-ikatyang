@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-ikatyang",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "tslint config for ikatyang",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
