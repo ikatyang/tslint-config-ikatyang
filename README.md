@@ -31,4 +31,3 @@ yarn add --dev tslint-config-ikatyang
 - [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
 - [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
 - [tslint-plugin-ikatyang](https://github.com/ikatyang/tslint-plugin-ikatyang)
-- [tslint-plugin-prettier](https://github.com/ikatyang/tslint-plugin-prettier)

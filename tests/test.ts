@@ -1,7 +1,7 @@
 export {};
 // tslint:disable:no-unused-variable no-unused
 
-declare function do_something(): void
+declare function do_something(): void;
 declare const condition: boolean;
 declare const foo: boolean;
 declare const bar: boolean;
