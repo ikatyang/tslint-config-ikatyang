@@ -1,3 +1,8 @@
 {
-  "extends": ["./lib/index.js", "tslint-config-prettier-ext"]
+  "extends": [
+    "./lib/index.js",
+    "tslint-config-prettier-ext",
+    "tslint-plugin-prettier",
+    "prettier-config-ikatyang/tslint"
+  ]
 }
