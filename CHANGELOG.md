@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/ikatyang/tslint-config-ikatyang/compare/v2.1.0...v2.2.0) (2017-08-09)
+
+
+### Features
+
+* **options:** [prefer-conditional-expression] enable check-else-if ([819c3de](https://github.com/ikatyang/tslint-config-ikatyang/commit/819c3de))
+* **rules:** enable no-duplicate-imports ([9ef05f5](https://github.com/ikatyang/tslint-config-ikatyang/commit/9ef05f5))
+* **rules:** enable no-submodule-imports ([2da5375](https://github.com/ikatyang/tslint-config-ikatyang/commit/2da5375))
+
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/ikatyang/tslint-config-ikatyang/compare/v2.0.1...v2.1.0) (2017-07-31)
 
