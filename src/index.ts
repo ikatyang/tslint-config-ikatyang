@@ -185,6 +185,7 @@ const config: tslint.Configuration.RawConfigFile = {
         named: 'never',
       },
     ],
+    'space-within-parens': false, // tslint-eslint-rules: space-in-parens
     'strict-boolean-expressions': [true],
     'strict-type-predicates': true,
     'switch-default': true,
