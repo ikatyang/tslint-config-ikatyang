@@ -89,6 +89,7 @@ const config: tslint.Configuration.RawConfigFile = {
     'no-construct': true,
     'no-debugger': true,
     'no-default-export': true,
+    'no-duplicate-imports': true,
     'no-duplicate-super': true,
     'no-duplicate-variable': [true, 'check-parameters'],
     'no-empty': true,
