@@ -161,7 +161,7 @@ const config: tslint.Configuration.RawConfigFile = {
         'named-imports-order': 'lowercase-first',
       },
     ],
-    'prefer-conditional-expression': true,
+    'prefer-conditional-expression': [true, 'check-else-if'],
     'prefer-const': true,
     'prefer-for-of': true,
     'prefer-function-over-method': true,
