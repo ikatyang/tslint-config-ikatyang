@@ -119,6 +119,7 @@ const config: tslint.Configuration.RawConfigFile = {
     'no-sparse-arrays': true,
     'no-string-literal': true,
     'no-string-throw': true,
+    'no-submodule-imports': true,
     'no-switch-case-fall-through': true,
     'no-this-assignment': true,
     'no-trailing-whitespace': true,
