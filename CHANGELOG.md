@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.3.0"></a>
+# [2.3.0](https://github.com/ikatyang/tslint-config-ikatyang/compare/v2.2.0...v2.3.0) (2017-08-27)
+
+
+### Bug Fixes
+
+* **deps:** update peerDependency tslint to version ^5.7.0 ([8b7afa9](https://github.com/ikatyang/tslint-config-ikatyang/commit/8b7afa9))
+
+
+### Features
+
+* **rules:** disable `no-parameter-properties` ([4750851](https://github.com/ikatyang/tslint-config-ikatyang/commit/4750851))
+* **rules:** enable `no-parameter-reassignment` ([1f07953](https://github.com/ikatyang/tslint-config-ikatyang/commit/1f07953))
+
+
+
 <a name="2.2.0"></a>
 # [2.2.0](https://github.com/ikatyang/tslint-config-ikatyang/compare/v2.1.0...v2.2.0) (2017-08-09)
 
