@@ -95,7 +95,7 @@ export const tslint_rules: tslint.Configuration.RawRulesConfig = {
   'no-non-null-assertion': false,
   'no-null-keyword': false,
   'no-object-literal-type-assertion': true,
-  'no-parameter-properties': true,
+  'no-parameter-properties': false, // tslint-plugin-ikatyang: no-mixed-parameter-properties
   'no-parameter-reassignment': true,
   'no-reference': true,
   'no-reference-import': true,
