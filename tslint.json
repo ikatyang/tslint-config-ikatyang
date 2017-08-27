@@ -4,5 +4,8 @@
     "tslint-config-prettier-ext",
     "tslint-plugin-prettier",
     "prettier-config-ikatyang/tslint"
-  ]
+  ],
+  "rules": {
+    "object-literal-sort-keys": true
+  }
 }
