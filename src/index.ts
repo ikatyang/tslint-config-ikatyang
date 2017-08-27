@@ -112,6 +112,7 @@ const config: tslint.Configuration.RawConfigFile = {
     'no-null-keyword': false,
     'no-object-literal-type-assertion': true,
     'no-parameter-properties': true,
+    'no-parameter-reassignment': true,
     'no-reference': true,
     'no-reference-import': true,
     'no-require-imports': false,
