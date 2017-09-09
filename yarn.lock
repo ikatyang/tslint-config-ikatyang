@@ -1147,9 +1147,9 @@ tslint-eslint-rules@~4.1.0:
     tslib "^1.0.0"
     tsutils "^1.4.0"
 
-tslint-plugin-ikatyang@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/tslint-plugin-ikatyang/-/tslint-plugin-ikatyang-1.1.0.tgz#4a87893a9d5a7a8c3581e5f29ce8b108f2e78c55"
+tslint-plugin-ikatyang@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/tslint-plugin-ikatyang/-/tslint-plugin-ikatyang-1.1.1.tgz#a7815bba6267b7f820fd52aa6baec5041ac721f5"
   dependencies:
     lodash.camelcase "^4.3.0"
     lodash.kebabcase "^4.1.1"
