@@ -5,5 +5,6 @@ export const tslint_plugin_ikatyang_rules: tslint.Configuration.RawRulesConfig =
     true,
     { namingStyle: 'kebab-case', allowSuffixes: ['.test'] },
   ],
+  'no-bad-namespace-import': true,
   'no-mixed-parameter-properties': true,
 };
