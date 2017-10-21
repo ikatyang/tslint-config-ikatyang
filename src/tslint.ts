@@ -82,6 +82,7 @@ export const tslint_rules: tslint.Configuration.RawRulesConfig = {
   'no-eval': true,
   'no-floating-promises': true,
   'no-for-in-array': true,
+  'no-implicit-dependencies': true,
   'no-import-side-effect': true,
   'no-inferrable-types': [true, 'ignore-params', 'ignore-properties'],
   'no-inferred-empty-object-type': true,
