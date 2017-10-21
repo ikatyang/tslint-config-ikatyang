@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.5.1"></a>
+## [2.5.1](https://github.com/ikatyang/tslint-config-ikatyang/compare/v2.5.0...v2.5.1) (2017-10-21)
+
+
+### Bug Fixes
+
+* **options:** [no-implicit-dependencies] enable `dev` option ([7d69025](https://github.com/ikatyang/tslint-config-ikatyang/commit/7d69025))
+
+
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/ikatyang/tslint-config-ikatyang/compare/v2.4.0...v2.5.0) (2017-10-21)
 
