@@ -1,6 +1,7 @@
 import * as tslint from 'tslint';
 
 export const tslint_consistent_codestyle_rules: tslint.Configuration.RawRulesConfig = {
+  'const-parameters': false, // tslint: no-parameter-reassignent
   'early-exit': [true],
   'ext-curly': false,
   'naming-convention': [
