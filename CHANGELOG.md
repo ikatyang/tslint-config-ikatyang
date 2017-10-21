@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.5.0"></a>
+# [2.5.0](https://github.com/ikatyang/tslint-config-ikatyang/compare/v2.4.0...v2.5.0) (2017-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency tslint-consistent-codestyle to ~1.8.0 ([#47](https://github.com/ikatyang/tslint-config-ikatyang/issues/47)) ([275017f](https://github.com/ikatyang/tslint-config-ikatyang/commit/275017f))
+
+
+### Features
+
+* **rules:** enable tslint/ban-comma-operator ([2ee8b11](https://github.com/ikatyang/tslint-config-ikatyang/commit/2ee8b11))
+* **rules:** enable tslint/no-duplicate-switch-case ([d57f411](https://github.com/ikatyang/tslint-config-ikatyang/commit/d57f411))
+* **rules:** enable tslint/no-implicit-dependencies ([455a9fb](https://github.com/ikatyang/tslint-config-ikatyang/commit/455a9fb))
+* **rules:** enable tslint/no-redundant-jsdoc ([958c9a4](https://github.com/ikatyang/tslint-config-ikatyang/commit/958c9a4))
+* **rules:** enable tslint/no-return-await ([18aa8f8](https://github.com/ikatyang/tslint-config-ikatyang/commit/18aa8f8))
+* **rules:** enable tslint/no-unnecessary-class ([43cb006](https://github.com/ikatyang/tslint-config-ikatyang/commit/43cb006))
+
+
+
 <a name="2.4.0"></a>
 # [2.4.0](https://github.com/ikatyang/tslint-config-ikatyang/compare/v2.3.0...v2.4.0) (2017-09-09)
 
