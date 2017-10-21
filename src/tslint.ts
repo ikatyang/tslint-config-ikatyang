@@ -75,6 +75,7 @@ export const tslint_rules: tslint.Configuration.RawRulesConfig = {
   'no-default-export': true,
   'no-duplicate-imports': true,
   'no-duplicate-super': true,
+  'no-duplicate-switch-case': true,
   'no-duplicate-variable': [true, 'check-parameters'],
   'no-empty': true,
   'no-empty-interface': true,
