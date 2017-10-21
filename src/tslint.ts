@@ -97,6 +97,7 @@ export const tslint_rules: tslint.Configuration.RawRulesConfig = {
   'no-object-literal-type-assertion': true,
   'no-parameter-properties': false, // tslint-plugin-ikatyang: no-mixed-parameter-properties
   'no-parameter-reassignment': true,
+  'no-redundant-jsdoc': true,
   'no-reference': true,
   'no-reference-import': true,
   'no-require-imports': false,
