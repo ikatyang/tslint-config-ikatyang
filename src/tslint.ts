@@ -114,6 +114,7 @@ export const tslint_rules: tslint.Configuration.RawRulesConfig = {
   'no-trailing-whitespace': true,
   'no-unbound-method': true,
   'no-unnecessary-callback-wrapper': true,
+  'no-unnecessary-class': true,
   'no-unnecessary-initializer': true,
   'no-unnecessary-qualifier': true,
   'no-unnecessary-type-assertion': true,
