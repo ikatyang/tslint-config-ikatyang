@@ -8,6 +8,7 @@ export const tslint_rules: tslint.Configuration.RawRulesConfig = {
   'arrow-return-shorthand': [true, 'multiline'],
   'await-promise': [true, 'PromiseLike'],
   ban: false,
+  'ban-comma-operator': true,
   'ban-types': [
     true,
     ['Boolean', 'Use boolean instead.'],
