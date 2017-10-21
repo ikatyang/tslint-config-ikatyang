@@ -100,6 +100,7 @@ export const tslint_rules: tslint.Configuration.RawRulesConfig = {
   'no-reference': true,
   'no-reference-import': true,
   'no-require-imports': false,
+  'no-return-await': true,
   'no-shadowed-variable': true,
   'no-sparse-arrays': true,
   'no-string-literal': true,
