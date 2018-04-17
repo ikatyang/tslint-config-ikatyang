@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@types/node": "8.10.8",
-    "prettier": "1.12.0",
+    "prettier": "1.12.1",
     "prettier-config-ikatyang": "1.1.1",
     "standard-version": "4.3.0",
     "tslint": "5.8.0",
