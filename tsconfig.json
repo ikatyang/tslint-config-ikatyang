@@ -3,7 +3,8 @@
     "strict": true,
     "lib": ["es6"],
     "module": "commonjs",
-    "declaration": true
+    "allowJs": true,
+    "checkJs": true
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts"]
+  "include": ["*.js", "tools/**/*.js"]
 }

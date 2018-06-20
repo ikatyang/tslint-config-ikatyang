@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+interface I {
+  a();
+  a();
+  b();
+}
+
+// bad
+
+interface I {
+  a();
+  b();
+  a();
+  ~~~~ [All 'a' signatures should be adjacent]
+}
+
+`;

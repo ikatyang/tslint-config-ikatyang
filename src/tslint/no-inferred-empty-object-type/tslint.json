@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "no-inferred-empty-object-type": true
+  }
+}

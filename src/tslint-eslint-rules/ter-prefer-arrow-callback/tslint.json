@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "ter-prefer-arrow-callback": false
+  }
+}

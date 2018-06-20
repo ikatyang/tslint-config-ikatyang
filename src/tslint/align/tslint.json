@@ -1,0 +1,13 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "align": [
+      true,
+      "arguments",
+      "parameters",
+      "statements",
+      "elements",
+      "members"
+    ]
+  }
+}

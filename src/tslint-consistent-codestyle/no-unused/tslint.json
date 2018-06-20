@@ -1,0 +1,11 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "no-unused": [
+      true,
+      "ignore-imports",
+      "unused-function-expression-name",
+      "unused-class-expression-name"
+    ]
+  }
+}

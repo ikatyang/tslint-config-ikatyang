@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "no-switch-case-fall-through": true
+  }
+}

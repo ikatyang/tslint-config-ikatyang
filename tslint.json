@@ -1,11 +1,5 @@
 {
-  "extends": [
-    "./lib/index.js",
-    "tslint-config-prettier",
-    "tslint-plugin-prettier",
-    "prettier-config-ikatyang/tslint"
-  ],
-  "rules": {
-    "object-literal-sort-keys": true
-  }
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": { "prettier": true },
+  "jsRules": { "prettier": true }
 }

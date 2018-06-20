@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "arrow-return-shorthand": [true, "multiline"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "handle-callback-err": [
+      true,
+      "^(err|error)$|^.+Error$",
+      {
+        "allowProperties": true
+      }
+    ]
+  }
+}

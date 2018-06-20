@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "prefer-conditional-expression": [true, "check-else-if"]
+  }
+}

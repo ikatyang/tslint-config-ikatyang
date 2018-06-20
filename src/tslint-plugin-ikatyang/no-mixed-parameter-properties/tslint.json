@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "no-mixed-parameter-properties": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "no-return-undefined": [true, "allow-void-expression"]
+  }
+}

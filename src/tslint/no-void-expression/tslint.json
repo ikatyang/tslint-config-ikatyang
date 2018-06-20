@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "no-void-expression": [true, "ignore-arrow-function-shorthand"]
+  }
+}
