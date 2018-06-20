@@ -1,6 +1,0 @@
-{
-  "extends": "../tslint.json",
-  "rules": {
-    "ter-no-irregular-whitespace": false
-  }
-}

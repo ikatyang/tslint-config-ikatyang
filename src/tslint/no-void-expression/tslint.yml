@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  no-void-expression:
+    - true
+    - ignore-arrow-function-shorthand

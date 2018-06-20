@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  array-type:
+    - true
+    - array-simple

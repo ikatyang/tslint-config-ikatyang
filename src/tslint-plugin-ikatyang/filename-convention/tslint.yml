@@ -1,0 +1,7 @@
+extends: ../tslint.yml
+rules:
+  filename-convention:
+    - true
+    - namingStyle: kebab-case
+      allowSuffixes:
+        - .test

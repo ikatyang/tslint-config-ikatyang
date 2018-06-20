@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  no-ex-assign: true

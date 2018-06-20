@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+const good1 = x => x;
+const good2 = x => x
+  .long
+  .long
+  .long
+  .long;
+
+// bad
+
+const bad1 = x => { return x };
+                  ~~~~~~~~~~~~  [This arrow function body can be simplified by omitting the curly braces and the keyword 'return'.]
+const bad2 = x => {
+                  ~
+  return x
+~~~~~~~~~~
+    .long
+~~~~~~~~~
+    .long
+~~~~~~~~~
+    .long
+~~~~~~~~~
+    .long;
+~~~~~~~~~~
+}
+~ [This arrow function body can be simplified by omitting the curly braces and the keyword 'return'.]
+
+`;

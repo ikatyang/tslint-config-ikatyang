@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  ter-no-sparse-arrays: false

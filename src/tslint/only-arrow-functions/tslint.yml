@@ -1,0 +1,6 @@
+extends: ../tslint.yml
+rules:
+  only-arrow-functions:
+    - true
+    - allow-declarations
+    - allow-named-functions

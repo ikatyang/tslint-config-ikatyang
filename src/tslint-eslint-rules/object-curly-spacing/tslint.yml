@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  object-curly-spacing:
+    - true
+    - always

@@ -1,0 +1,4 @@
+extends: ../tslint.yml
+rules:
+  strict-boolean-expressions:
+    - true

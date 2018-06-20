@@ -1,0 +1,8 @@
+extends: ../tslint.yml
+rules:
+  no-multi-spaces:
+    - true
+    - exceptions:
+        BinaryExpression: false
+        PropertyAssignment: false
+        VariableDeclaration: false

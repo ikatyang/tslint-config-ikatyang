@@ -1,0 +1,7 @@
+extends: ../tslint.yml
+rules:
+  quotemark:
+    - true
+    - single
+    - avoid-escape
+    - jsx-double

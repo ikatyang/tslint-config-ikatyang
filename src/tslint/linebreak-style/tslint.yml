@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  linebreak-style:
+    - true
+    - LF

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+declare const x: number;
+
+// good
+
+x + 1;
+
+// bad
+
+1 + x;
+~~~~~  [Literal expression should be on the right-hand side of a binary expression.]
+
+`;

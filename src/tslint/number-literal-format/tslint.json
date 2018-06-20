@@ -1,6 +1,0 @@
-{
-  "extends": "../tslint.json",
-  "rules": {
-    "number-literal-format": true
-  }
-}

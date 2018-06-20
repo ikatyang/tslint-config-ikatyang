@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  arrow-return-shorthand:
+    - true
+    - multiline

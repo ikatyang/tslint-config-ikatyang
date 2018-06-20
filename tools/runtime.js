@@ -1,4 +1,5 @@
 const assert = require('assert');
+const fs = require('fs');
 const path = require('path');
 const tslint = require('tslint');
 const { createMarkupFromErrors } = require('tslint/lib/verify/parse');
@@ -24,12 +25,22 @@ function lint(filename, source) {
   );
 
   const dirname = path.dirname(filename);
-  const configPath = path.join(dirname, 'tslint.json');
 
-  const config = tslint.Linter.findConfiguration(configPath).results;
-  const linter = new tslint.Linter({ fix: false });
+  const tslintConfigPath = path.join(dirname, 'tslint.yml');
+  const tslintConfig = tslint.Linter.findConfiguration(tslintConfigPath)
+    .results;
 
-  linter.lint(filename, source, config);
+  /** @type {undefined | import('typescript').Program} */
+  let program;
+
+  const tsconfigPath = path.join(dirname, 'tsconfig.json');
+  if (fs.existsSync(tsconfigPath)) {
+    program = tslint.Linter.createProgram(tsconfigPath);
+  }
+
+  const linter = new tslint.Linter({ fix: false }, program);
+
+  linter.lint(filename, source, tslintConfig);
   const results = linter.getResult();
 
   assert(

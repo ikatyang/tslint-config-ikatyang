@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  space-in-parens:
+    - true
+    - never

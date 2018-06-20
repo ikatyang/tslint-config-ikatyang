@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  interface-over-type-literal: true

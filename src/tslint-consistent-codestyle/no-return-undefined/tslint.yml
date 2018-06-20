@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  no-return-undefined:
+    - true
+    - allow-void-expression

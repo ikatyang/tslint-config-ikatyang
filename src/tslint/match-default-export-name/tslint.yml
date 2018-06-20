@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  match-default-export-name: false

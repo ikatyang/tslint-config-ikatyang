@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  switch-default: true

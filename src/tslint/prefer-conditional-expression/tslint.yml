@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  prefer-conditional-expression:
+    - true
+    - check-else-if

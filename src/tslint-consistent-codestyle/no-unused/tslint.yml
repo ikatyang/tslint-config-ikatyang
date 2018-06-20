@@ -1,0 +1,7 @@
+extends: ../tslint.yml
+rules:
+  no-unused:
+    - true
+    - ignore-imports
+    - unused-function-expression-name
+    - unused-class-expression-name

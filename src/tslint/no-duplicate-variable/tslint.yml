@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  no-duplicate-variable:
+    - true
+    - check-parameters

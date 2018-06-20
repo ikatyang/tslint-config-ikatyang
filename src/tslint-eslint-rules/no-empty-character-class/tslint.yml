@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  no-empty-character-class: true

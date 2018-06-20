@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  cyclomatic-complexity:
+    - true
+    - 20

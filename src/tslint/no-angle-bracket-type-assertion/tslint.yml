@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  no-angle-bracket-type-assertion: true

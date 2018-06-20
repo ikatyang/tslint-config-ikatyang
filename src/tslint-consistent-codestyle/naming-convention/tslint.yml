@@ -1,0 +1,24 @@
+extends: ../tslint.yml
+rules:
+  naming-convention:
+    - true
+    - format: snake_case
+      leadingUnderscore: forbid
+      trailingUnderscore: forbid
+      type: default
+    - type: parameter
+      leadingUnderscore: allow
+      final: true
+    - type: variable
+      modifiers: rename
+      leadingUnderscore: allow
+    - type: member
+      modifiers: private
+      leadingUnderscore: require
+    - type: member
+      modifiers: protected
+      leadingUnderscore: require
+    - type: type
+      format: PascalCase
+    - type: enumMember
+      format: PascalCase

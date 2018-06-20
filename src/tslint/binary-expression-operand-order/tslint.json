@@ -1,6 +1,0 @@
-{
-  "extends": "../tslint.json",
-  "rules": {
-    "binary-expression-operand-order": true
-  }
-}

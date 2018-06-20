@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+declare const good1: string;
+
+// bad
+
+declare const bad1: Boolean;
+                    ~~~~~~~  [Don't use 'Boolean' as a type. Use boolean instead.]
+declare const bad2: Number;
+                    ~~~~~~  [Don't use 'Number' as a type. Use number instead.]
+declare const bad3: String;
+                    ~~~~~~  [Don't use 'String' as a type. Use string instead.]
+declare const bad4: Object;
+                    ~~~~~~  [Don't use 'Object' as a type. Use object instead.]
+
+`;

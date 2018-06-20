@@ -1,6 +1,0 @@
-{
-  "extends": "../tslint.json",
-  "rules": {
-    "space-in-parens": [true, "never"]
-  }
-}

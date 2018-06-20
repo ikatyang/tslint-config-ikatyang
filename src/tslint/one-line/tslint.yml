@@ -1,0 +1,9 @@
+extends: ../tslint.yml
+rules:
+  one-line:
+    - true
+    - check-open-brace
+    - check-catch
+    - check-else
+    - check-finally
+    - check-whitespace

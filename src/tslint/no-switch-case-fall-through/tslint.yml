@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  no-switch-case-fall-through: true

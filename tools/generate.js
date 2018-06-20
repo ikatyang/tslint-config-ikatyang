@@ -1,5 +1,6 @@
 const assert = require('assert');
 const fs = require('fs');
+const jsYaml = require('js-yaml');
 const path = require('path');
 const prettier = require('prettier');
 
@@ -9,6 +10,11 @@ const rulesets = [];
 /** @type {Record<string, import('tslint').Configuration.RawRuleConfig>} */
 const rules = {};
 
+const tslintConfigBasename = 'tslint.yml';
+
+/** @param {string} content */
+const parseTSLintConfig = content => jsYaml.safeLoad(content);
+
 const sourceDirname = path.resolve(__dirname, '../src');
 fs.readdirSync(sourceDirname).forEach(rulesetName => {
   if (rulesetName !== 'tslint') {
@@ -17,14 +23,13 @@ fs.readdirSync(sourceDirname).forEach(rulesetName => {
 
   const rulesetDirname = path.resolve(sourceDirname, rulesetName);
   fs.readdirSync(rulesetDirname)
-    .filter(x => x !== 'tslint.json')
+    .filter(x => x !== tslintConfigBasename)
     .forEach(ruleName => {
       const ruleDirname = path.resolve(rulesetDirname, ruleName);
 
-      const configFilename = path.resolve(ruleDirname, 'tslint.json');
-
-      /** @type {import('tslint').Configuration.RawConfigFile} */
-      const config = JSON.parse(fs.readFileSync(configFilename, 'utf8'));
+      const configFilename = path.resolve(ruleDirname, tslintConfigBasename);
+      const config = /** @type {import('tslint').Configuration.RawConfigFile}
+       */ (parseTSLintConfig(fs.readFileSync(configFilename, 'utf8')));
 
       const configRules =
         /** @type {NonNullable<typeof config.rules>} */ (config.rules);

@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  no-else-after-return: true

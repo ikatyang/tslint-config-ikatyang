@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  no-implicit-dependencies:
+    - true
+    - dev

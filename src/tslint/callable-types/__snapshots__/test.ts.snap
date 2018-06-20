@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+type good1 = (x: any) => any;
+
+// bad
+
+type bad1 = {
+  (x: any): any;
+  ~~~~~~~~~~~~~~ [Type literal has only a call signature — use \`(x: any) => any\` instead.]
+}
+
+interface bad2 {
+  (x: any): any;
+  ~~~~~~~~~~~~~~ [Interface has only a call signature — use \`type bad2 = (x: any) => any;\` instead.]
+}
+
+`;

@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  binary-expression-operand-order: true

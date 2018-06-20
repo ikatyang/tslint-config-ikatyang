@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  class-name: false # tslint-consistent-codestyle: naming-convention

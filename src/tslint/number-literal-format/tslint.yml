@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  number-literal-format: true

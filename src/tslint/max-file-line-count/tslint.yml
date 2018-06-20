@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  max-file-line-count:
+    - true
+    - 300

@@ -1,0 +1,6 @@
+extends: ../tslint.yml
+rules:
+  handle-callback-err:
+    - true
+    - ^(err|error)$|^.+Error$
+    - allowProperties: true

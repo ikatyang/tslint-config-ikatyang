@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  no-namespace:
+    - true
+    - allow-declarations

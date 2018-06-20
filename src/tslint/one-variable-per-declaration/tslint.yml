@@ -1,0 +1,4 @@
+extends: ../tslint.yml
+rules:
+  one-variable-per-declaration:
+    - true

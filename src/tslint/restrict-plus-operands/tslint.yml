@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  restrict-plus-operands: true

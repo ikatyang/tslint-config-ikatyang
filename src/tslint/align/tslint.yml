@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  align: false # style rule

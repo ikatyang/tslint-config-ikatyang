@@ -1,0 +1,3 @@
+extends: ../tslint.yml
+rules:
+  prefer-const-enum: true

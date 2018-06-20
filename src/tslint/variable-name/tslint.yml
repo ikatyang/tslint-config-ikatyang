@@ -1,0 +1,5 @@
+extends: ../tslint.yml
+rules:
+  variable-name:
+    - true
+    - ban-keywords

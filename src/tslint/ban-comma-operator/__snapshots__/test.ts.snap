@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+console.log(1, 2)
+
+// bad
+
+console.log((1, 2));
+             ~~~~    [Do not use comma operator here because it can be easily misunderstood or lead to unintended bugs.]
+
+`;

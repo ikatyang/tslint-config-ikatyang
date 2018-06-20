@@ -1,0 +1,10 @@
+extends: ../tslint.yml
+rules:
+  whitespace:
+    - true
+    - check-branch
+    - check-decl
+    - check-operator
+    - check-preblock
+    - check-separator
+    - check-type

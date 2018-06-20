@@ -1,0 +1,6 @@
+extends: ../tslint.yml
+rules:
+  trailing-comma:
+    - true
+    - multiline: always
+      singleline: never
