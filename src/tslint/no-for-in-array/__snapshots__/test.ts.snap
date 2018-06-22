@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+[1, 2].forEach((_, index) => {
+
+});
+
+// bad
+
+for (const key in [1, 2]) {
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~nil
+}
+~ [for-in loops over arrays are forbidden. Use for-of or array.forEach instead.]
+
+`;

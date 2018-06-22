@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+import something from 'a';
+
+// bad
+
+import something from 'a/b';
+                      ~~~~~  [Submodule import paths from this package are disallowed; import from the root instead]
+
+`;

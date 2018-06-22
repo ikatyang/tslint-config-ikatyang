@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+declare const something: any;
+
+// good
+
+const good1 = something;
+
+// bad
+
+const bad1 = eval("something");
+             ~~~~               [forbidden eval]
+
+`;

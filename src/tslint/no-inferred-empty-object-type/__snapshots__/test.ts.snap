@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+declare function returnGeneric<T>(): T;
+
+// good
+
+const good1 = returnGeneric<any>()
+
+// bad
+
+const bad1 = returnGeneric();
+             ~~~~~~~~~~~~~~~  [Explicit type parameter needs to be provided to the function call]
+
+`;

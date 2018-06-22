@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+import * as path from 'path';
+
+// bad
+
+import 'path'
+~~~~~~~~~~~~~ [import with explicit side-effect]
+
+`;

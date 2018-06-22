@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+namespace good1 {
+  let something1;
+  let something2;
+}
+
+// bad
+
+namespace bad1 {
+  let something1;
+}
+
+namespace bad1 {
+          ~~~~   [Mergeable namespace 'bad1' found. Merge its contents with the namespace on line 10.]
+  let something2;
+}
+
+`;

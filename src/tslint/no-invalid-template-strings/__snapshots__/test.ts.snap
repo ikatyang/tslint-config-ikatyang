@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+\`\${1}\`
+
+// bad
+
+"\${1}"
+ ~~    [Interpolation will only work for template strings.]
+
+`;

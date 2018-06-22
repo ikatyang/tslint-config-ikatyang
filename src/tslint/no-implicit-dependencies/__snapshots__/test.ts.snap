@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+import {} from 'fs';
+
+// bad
+
+import {} from 'huh?';
+               ~~~~~~  [Module 'huh?' is not listed as dependency in package.json]
+
+`;

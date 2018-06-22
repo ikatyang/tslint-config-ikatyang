@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+const good1 = 1;
+
+// bad
+
+const bad1: number = 1;
+            ~~~~~~      [Type number trivially inferred from a number literal, remove type annotation]
+
+`;

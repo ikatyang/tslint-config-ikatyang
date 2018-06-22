@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+function good1() {
+  return Promise.resolve(null);
+}
+
+// bad
+
+function bad1() {
+  Promise.resolve(null);
+  ~~~~~~~~~~~~~~~~~~~~~  [Promises must be handled appropriately]
+}
+
+`;

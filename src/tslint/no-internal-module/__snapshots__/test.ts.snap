@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+namespace good1 {
+
+}
+
+// bad
+
+module bad1 {
+~~~~~~        [The internal 'module' syntax is deprecated, use the 'namespace' keyword instead.]
+
+}
+
+`;

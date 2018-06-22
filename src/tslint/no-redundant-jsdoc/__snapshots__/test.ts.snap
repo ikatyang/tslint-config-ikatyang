@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+/**
+ * @param a something
+ */
+function good1(a: string) {
+
+}
+
+// bad
+
+/**
+ * @param {string} a something
+          ~~~~~~~~             [Type annotation in JSDoc is redundant in TypeScript code.]
+ */
+function bad1(a: string) {
+
+}
+
+`;

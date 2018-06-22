@@ -1,5 +1,3 @@
 extends: ../tslint.yml
 rules:
-  no-namespace:
-    - true
-    - allow-declarations
+  no-namespace: false # namespace can be used to define methods/properties on a function

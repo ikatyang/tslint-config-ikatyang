@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+declare const x: { hello: any };
+
+// good
+
+x.hello;
+
+// bad
+
+x["hello"];
+  ~~~~~~~   [object access via string literals is disallowed]
+
+`;
