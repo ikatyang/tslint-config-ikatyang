@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+declare const boolean: boolean;
+declare const booleanOrUndefined: boolean | undefined;
+
+// good
+
+if (boolean) {
+
+}
+
+if (booleanOrUndefined === false) {
+
+}
+
+// bad
+
+if (boolean === true) {
+    ~~~~~~~             [This expression is unnecessarily compared to a boolean. Just use it directly.]
+
+}
+
+`;

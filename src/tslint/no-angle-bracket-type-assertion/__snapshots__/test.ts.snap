@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+const good1 = 1 as number;
+
+// bad
+
+const bad1 = <number>1;
+             ~~~~~~~~~  [Type assertion using the '<>' syntax is forbidden. Use the 'as' syntax instead.]
+
+`;

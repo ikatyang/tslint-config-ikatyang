@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+export const something = 'something';
+
+// bad
+
+export default 'something';
+       ~~~~~~~              [Use of default exports is forbidden]
+
+`;

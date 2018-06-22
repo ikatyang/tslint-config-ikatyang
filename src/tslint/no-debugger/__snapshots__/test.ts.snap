@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+
+// bad
+
+debugger;
+~~~~~~~~~ [Use of debugger statements is forbidden]
+
+`;

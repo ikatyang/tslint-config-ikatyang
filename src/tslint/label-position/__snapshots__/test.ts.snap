@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+my_loop:
+for (let i = 0; i < 10; i++) {
+  break my_loop;
+}
+
+// bad
+
+my_var:
+~~~~~~  [unexpected label on statement]
+var x = 1;
+
+`;

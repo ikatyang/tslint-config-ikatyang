@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+// good1
+
+// bad
+
+//bad1
+  ~~~~ [comment must start with a space]
+
+`;

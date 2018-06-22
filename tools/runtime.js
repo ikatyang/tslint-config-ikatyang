@@ -9,6 +9,10 @@ const { createMarkupFromErrors } = require('tslint/lib/verify/parse');
  * @param {string} source
  */
 function lint(filename, source) {
+  if (/^\/\/ skip test$/.test(source.trim())) {
+    return source;
+  }
+
   const lineContents = source.split('\n');
 
   const goodComment = '// good';
@@ -49,7 +53,7 @@ function lint(filename, source) {
   );
 
   assert(
-    results.failures.some(
+    results.failures.every(
       failure =>
         failure.getStartPosition().getLineAndCharacter().line > badLine,
     ),

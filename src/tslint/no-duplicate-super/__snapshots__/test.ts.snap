@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+class good1 extends Error {
+  constructor() {
+    super();
+  }
+}
+
+// bad
+
+class bad1 extends Error {
+  constructor() {
+    super();
+    ~~~~~~~~
+    super();
+~~~~~~~~~~~  [Multiple calls to 'super()' found. It must be called only once.]
+  }
+}
+
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+const x = "something";
+
+// bad
+
+const x = new String("something");
+          ~~~~~~~~~~               [Forbidden constructor, use a literal or simple function call instead]
+
+`;

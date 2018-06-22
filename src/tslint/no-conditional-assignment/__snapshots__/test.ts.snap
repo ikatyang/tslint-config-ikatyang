@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+declare let somethingLongLongLongLong: any;
+
+// good
+
+if (somethingLongLongLongLong === 1) {
+
+}
+
+// bad
+
+if (somethingLongLongLongLong = 1) {
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    [Assignments in conditional expressions are forbidden]
+
+}
+
+`;

@@ -2,17 +2,26 @@ extends: ../tslint.yml
 rules:
   member-ordering:
     - true
-    - order:
-        - public-static-field
-        - protected-static-field
-        - private-static-field
-        - public-instance-field
-        - protected-instance-field
-        - private-instance-field
+    - alphabetize: true
+      order:
+        - name: static-field
+          kinds:
+            - public-static-field
+            - protected-static-field
+            - private-static-field
+        - name: static-method
+          kinds:
+            - public-static-method
+            - protected-static-method
+            - private-static-method
+        - name: instance-field
+          kinds:
+            - public-instance-field
+            - protected-instance-field
+            - private-instance-field
         - constructor
-        - public-static-method
-        - protected-static-method
-        - private-static-method
-        - public-instance-method
-        - protected-instance-method
-        - private-instance-method
+        - name: instance-method
+          kinds:
+            - public-instance-method
+            - protected-instance-method
+            - private-instance-method

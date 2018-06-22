@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+interface good {
+  prop: any;
+}
+
+// bad
+
+type bad1 = {
+     ~~~~     [Use an interface instead of a type literal.]
+  prop: any;
+}
+
+`;

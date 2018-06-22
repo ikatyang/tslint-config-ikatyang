@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+class good1 {
+  static d1;
+  static d2;
+  static d3;
+  static c1() {}
+  static c2() {}
+  static c3() {}
+  b1;
+  b2;
+  b3;
+  constructor() {}
+  a1() {}
+  a2() {}
+  a3() {}
+}
+
+// bad
+
+class bad1 {
+  static d3;
+  static d2;
+         ~~  ['d2' should come alphabetically before 'd3']
+  static d1;
+         ~~  ['d1' should come alphabetically before 'd3']
+  static c2() {}
+  static c3() {}
+  b1;
+  b2;
+  b3;
+  constructor() {}
+  a1() {}
+  a2() {}
+  a3() {}
+  static c1() {}
+  ~~~~~~~~~~~~~~ [Declaration of static-method not allowed after declaration of instance-method. Instead, this should come after static-fields.]
+}
+
+`;

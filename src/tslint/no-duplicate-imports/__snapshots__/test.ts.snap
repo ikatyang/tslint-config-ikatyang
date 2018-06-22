@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+import {dirname, basename} from 'path';
+
+// bad
+
+import {readFileSync} from 'fs';
+import {writeFileSync} from 'fs';
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [Multiple imports from 'fs' can be combined into one.]
+
+`;

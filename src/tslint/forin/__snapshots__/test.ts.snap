@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+declare const someObject: {};
+
+// good
+
+for (let key in someObject) {
+  if (someObject.hasOwnProperty(key)) {
+    console.log(key);
+  }
+}
+
+// bad
+
+for (let key in someObject) {
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  console.log(key);
+~~~~~~~~~~~~~~~~~~~
+}
+~ [for (... in ...) statements must be filtered with an if statement]
+
+`;

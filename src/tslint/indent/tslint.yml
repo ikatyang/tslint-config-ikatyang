@@ -1,6 +1,3 @@
 extends: ../tslint.yml
 rules:
-  indent:
-    - true
-    - spaces
-    - 2
+  indent: false # style rule

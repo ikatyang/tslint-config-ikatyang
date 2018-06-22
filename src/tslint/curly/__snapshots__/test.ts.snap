@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+if (true) {
+  console.log("something");
+}
+
+// bad
+
+if (true) console.log("something");
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [if statements must be braced]
+
+`;

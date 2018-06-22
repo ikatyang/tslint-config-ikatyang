@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+var good;
+
+// bad
+
+var bad1;
+var bad1;
+    ~~~~  [Duplicate variable: 'bad1']
+
+function bad2(a) {
+  var a;
+      ~  [Duplicate variable: 'a']
+}
+
+`;

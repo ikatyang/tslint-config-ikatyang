@@ -1,3 +1,5 @@
 extends: ../tslint.yml
 rules:
-  member-access: true
+  member-access:
+    - true
+    - no-public

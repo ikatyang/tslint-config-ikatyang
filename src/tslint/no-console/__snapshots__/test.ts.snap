@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lint 1`] = `
+// good
+
+
+// bad
+
+console.log("something");
+~~~~~~~~~~~               [Calls to 'console.log' are not allowed.]
+
+`;

@@ -1,5 +1,3 @@
 extends: ../tslint.yml
 rules:
-  max-line-length:
-    - true
-    - 120
+  max-line-length: false # style rule
