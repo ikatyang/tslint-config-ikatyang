@@ -20,7 +20,7 @@
     "tslint-plugin-ikatyang": "~1.1.1"
   },
   "devDependencies": {
-    "@types/node": "8.10.43",
+    "@types/node": "8.10.44",
     "prettier": "1.16.4",
     "prettier-config-ikatyang": "1.1.1",
     "standard-version": "4.4.0",
