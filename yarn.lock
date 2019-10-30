@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/node@8.10.56":
-  version "8.10.56"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.56.tgz#f1d55b979163cc0cfb6b927b6e4bf9632bcc8fe7"
+"@types/node@8.10.58":
+  version "8.10.58"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.58.tgz#98c14ce95a634701bd2d59d52df882c0610dd0eb"
 
 JSONStream@^1.0.4:
   version "1.3.5"
